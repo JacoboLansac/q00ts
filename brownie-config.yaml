@@ -1,0 +1,52 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@4.5.0
+compiler:
+  solc:
+    version: 0.8.14
+    optimizer:
+      enabled: true
+      runs: 200  # A good tradeoff between higher deployment cost, and lower mint cost
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0'
+dotenv: .env
+
+networks:
+  default: development
+
+  rinkeby:
+    publish_source: True
+    baseURI: 'set me'
+  mainnet:
+    publish_source: True
+    baseURI: 'set me'
+
+
+wallets:
+  dev-00: ${DEV00_PRIVATE_KEY}
+  dev-01: ${DEV01_PRIVATE_KEY}
+  dev-02: ${DEV02_PRIVATE_KEY}
+  dev-03: ${DEV03_PRIVATE_KEY}
+  dev-04: ${DEV04_PRIVATE_KEY}
+  dev-05: ${DEV05_PRIVATE_KEY}
+  dev-06: ${DEV06_PRIVATE_KEY}
+  dev-07: ${DEV07_PRIVATE_KEY}
+  dev-08: ${DEV08_PRIVATE_KEY}
+  dev-09: ${DEV09_PRIVATE_KEY}
+
+reports:
+  exclude_paths: null
+  exclude_contracts: null
+  only_include_project: true
+
+hypothesis:
+  deadline: null
+  max_examples: 50
+  report_multiple_bugs: False
+  stateful_step_count: 10
+  phases:
+    explicit: true
+    reuse: true
+    generate: true
+    target: true
+    shrink: False
+

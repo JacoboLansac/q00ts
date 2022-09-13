@@ -1,0 +1,166 @@
+total-supply: 5000
+
+# Each of the traits-class should have a folder
+# Each of the traits should have a png file with the same name
+# Everything lowercase pleaseeeeeeee
+# The sum of the percentages of all traits should be 100%. Else an exception will be risen
+traits:
+  shoes:
+    velcro: 50
+    flip-flops: 20
+    sneakers: 10
+    sleepers: 5
+    red-converse: 2
+    blue-converse: 1
+  background:
+    moon-surface: 60
+    calima-day: 10
+    viridis: 5
+    blue-night: 5
+    purple-night: 5
+    bloody-dark: 5
+    calima-sunset: 2
+    neon: 2
+    volcano: 1
+    multicolor: .5
+  skin:
+    bengal-tiger: .25
+    leopard: .5
+    multicolor: 1
+    deep-blue: 2
+    mint: 3
+    yellow: 5
+    orange: 10
+    red: 10
+    pink: 10
+    purple: 20
+    green: 20
+    light-blue: 20
+  light:
+    basic: 100
+  companion:
+    box: .25
+    radioactive-cat: .5
+    transparent-dog: 1
+    spider: 2
+    turtle: 4
+    dog-with-spots: 5
+    black-cat: 10
+    light-cat: 10
+    light-dog: 10
+    stone: 50
+  flag:
+    q00t: 50
+    degen: 10
+    freak: 10
+    ape: 10
+    nerd: 5
+    agnostic: 5
+    q00t-pirates: 2
+    ethereum: 1
+    osnipe: 1
+  shape:
+    basic: 100
+  noise:
+    basic: 100
+  head:
+    standard: 40
+    dinosaur: 20
+    paper-hat: 10
+    bull-horns: 10
+    bug: 5
+    mohican: 5
+    vietnamese: 5
+    antelope-horns: 5
+    top-hat: 2
+    narwal: 1
+  ears:
+    human: 50
+    gauge: 10
+    shark-gills: 10
+    shrek: 5
+    elf: 5
+    saiyan: 1
+  eyebrows:
+    neutral: 50
+    risen: 20
+    sad: 20
+    mad: 10
+    mono: 5
+    skeptic: 2
+  mouth:
+    happy: 40
+    sad: 10
+    oh: 7
+    woah: 5
+    indifferent: 5
+    neutral: 5
+    scream: 5
+    smily: 5
+    morty: 2.5
+    samurai: 1
+    vampire: 1
+    pacifier-blue: .5
+    pacifier-pink: .5
+    jocker: 0.25
+  eyes:
+    q00t-normal: 60
+    q00t-eyelashes: 10
+    q00t-diamond: 5
+    q00t-shiny: 5
+    q00t-glasses: 5
+    q00t-sunglasses: 2
+    q00t-snake: 2
+    q00t-fly: 1
+    q00t-cyclops: 1
+  sky:
+    stars: 50
+    rain: 20
+    moon: 10
+    shooting-star: 5
+    rocket: 1
+    lightning: 1
+    sauron-eye: .5
+
+
+
+
+
+
+
+
+upgrade-order:
+  - mouth
+  - skin
+  - eyebrows
+  - head
+  - ears
+  - shoes
+  - background
+  - companion
+  - sky
+  - eyes
+  - flag
+
+
+
+# This configures which traits are placed on top and which ones at the bottom.
+# This is relevant when traits overlap, but hopefully this does not happen often
+overlapping-order:
+  - background
+  - flag
+  - skin
+  - light
+  - sky
+  - shape
+  - companion
+  - ears
+  - head
+  - shoes
+  - mouth
+  - eyebrows
+  - eyes
+  - noise
+
+img:
+  size: [ 1262, 1262 ]
