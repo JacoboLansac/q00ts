@@ -1,0 +1,227 @@
+total-supply: 5000
+
+# Each of the traits-class should have a folder
+# Each of the traits should have a png file with the same name
+# Everything lowercase pleaseeeeeeee
+# The sum of the percentages of all traits should be 100%. Else an exception will be risen
+traits:
+  background:
+    blue purple: 320
+    butterfly blue: 220
+    butterfly pink: 200
+    butterfly purple: 180
+    clouds green: 170
+    clouds pink: 150
+    clouds yellow: 130
+    common blue: 420
+    common green: 410
+    common pink: 400
+    common purple: 390
+    common yellow: 380
+    flames pink: 128
+    flames purple: 122
+    green blue: 310
+    pink purple: 300
+    pink yellow: 290
+    rocket purple pink: 100
+    yellow green: 280
+  body:
+    clouds 1 green: 38
+    clouds 1 purple: 37
+    clouds 2 pink: 36
+    clouds 2 yellow: 35
+    clouds 3 blue: 34
+    clouds 3 green: 33
+    common 1 blue: 150
+    common 1 green: 149
+    common 1 pink: 148
+    common 1 purple: 147
+    common 1 yellow: 146
+    common 2 blue purple: 145
+    common 2 green pink: 144
+    common 2 green yellow: 143
+    common 2 pink blue: 142
+    common 2 yellow green: 141
+    fannypack 1 blue: 100
+    fannypack 1 green: 99
+    fannypack 1 yellow: 98
+    fannypack 2 blue: 97
+    fannypack 2 pink: 96
+    fannypack 2 purple: 95
+    fannypack 3 blue: 94
+    fannypack 3 purple: 93
+    fannypack 3 yellow: 92
+    fannypack 4 green: 91
+    fannypack 4 pink: 90
+    fannypack 4 yellow: 89
+    fannypack 5 blue: 88
+    fannypack 5 pink: 87
+    fannypack 5 yellow: 86
+    flowers  yellow: 14
+    flowers blue: 21
+    pattern 1 green: 85
+    pattern 1 pink: 84
+    pattern 1 yellow: 83
+    pattern 2 blue: 82
+    pattern 2 pink: 81
+    pattern 2 yellow: 80
+    pattern 3 blue: 79
+    pattern 3 yellow: 77
+    pattern 4 blue: 76
+    pattern 4 pink: 75
+    pattern 4 purple: 74
+    pattern 5 green: 73
+    pattern 5 purple: 72
+    pattern 6 blue: 70
+    pattern 6 pink: 69
+    pattern 6 yellow: 68
+    pattern 7 green: 67
+    pattern 7 purple: 66
+    pattern 7 yellow: 65
+    rainbow 1 blue: 32
+    rainbow 1 purple: 31
+    rainbow 2 pink: 30
+    rainbow 2 yellow: 30
+    rainbow 3 multicolor: 28
+    rainbow 3 stripes: 29
+    wings 1 pink: 27
+    wings 1 purple: 26
+    wings 2 blue: 25
+    wings 2 green: 24
+    wings 3 pink green: 23
+  eyes:
+    common blue: 890
+    common green: 880
+    common pink: 870
+    common yellow: 860
+    laser eye: 50
+    multi eye: 100
+    rainbow lashes: 50
+    robot: 410
+    trippy: 400
+    wavy: 100
+    x ray: 390
+  hair:
+    bubblegum: 130
+    check marks: 280
+    circles: 270
+    clouds: 120
+    common blue: 525
+    common green: 535
+    common pink: 515
+    common purple: 505
+    common white: 495
+    common yellow: 485
+    flowers: 110
+    pickles: 260
+    rainbow: 50
+    spike: 250
+    stripes: 240
+  head:
+    common 2 blue green: 320
+    common 2 blue purple: 310
+    common 2 green pink: 300
+    common 2 pink yellow: 290
+    common 2 purple blue: 280
+    common blue: 420
+    common green: 410
+    common pink: 400
+    common purple: 390
+    common yellow: 380
+    crown: 155
+    flower: 115
+    hands: 115
+    rainbow: 59
+    uncommon 1: 176
+    uncommon 2: 176
+    uncommon 3: 176
+    uncommon 4: 176
+    uncommon 5: 176
+    uncommon 6: 176
+  hooves:
+    common blue: 430
+    common green: 420
+    common pink: 410
+    common purple: 400
+    common yellow: 390
+    eyes 1: 330
+    eyes 2: 325
+    eyes 3: 319
+    eyes 4: 314
+    multi: 122
+    stripes 1: 390
+    stripes 2: 388
+    stripes 3: 382
+    stripes 4: 380
+  horn:
+    circles purple: 320
+    circles white: 310
+    common blue: 550
+    common green: 540
+    common pink: 530
+    common purple: 520
+    common white: 500
+    common yellow: 510
+    donut: 50
+    poopy: 100
+    rainbow: 100
+    skull: 100
+    stripes 1: 300
+    stripes 2: 290
+    stripes 3: 280
+  mouths:
+    Confused: 400
+    Flower: 100
+    Grin: 910
+    Growling: 900
+    Hey: 100
+    Laughing: 390
+    Sad: 890
+    Skull Horn: 50
+    Thinking: 380
+    Tongue Out: 880
+  tails:
+    Balloons: 240
+    Bubblegum: 220
+    Circles 1: 380
+    Circles 2: 378
+    Circles 3: 376
+    Common Blue: 420
+    Common Green: 410
+    Common Pink: 400
+    Common Purple: 390
+    Common Yellow: 380
+    Grabbing Hands: 230
+    Rainbow Maze: 16
+    Swurve 1: 390
+    Swurve 2: 388
+    Swurve 3: 382
+
+
+upgrade-order:
+  - background
+  - hooves
+  - hair
+  - tails
+  - body
+  - head
+  - mouths
+  - eyes
+  - horn
+
+
+# This configures which traits are placed on top and which ones at the bottom.
+# This is relevant when traits overlap, but hopefully this does not happen often
+overlapping-order:
+  - background
+  - hooves
+  - hair
+  - tails
+  - body
+  - head
+  - horn
+  - mouths
+  - eyes
+
+img:
+  size: [ 1262, 1262 ]

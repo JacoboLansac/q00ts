@@ -1,0 +1,55 @@
+{
+  "name": "q00tant #12",
+  "description": "q00tants are one faction of q00ts by [@0xQuit](https://twitter.com/0xQuit). They are a part of the war against the all-sunshine-and-rainbows q00nicorns. The War of The q00ts is an educational battleground taking place in the q00tiverse.",
+  "image": "ipfs://QmRyJb8r7JyisB9kZsoxkseanFW4CDTzg5E9sBTnxeeuo9/12.png",
+  "attributes": [
+    {
+      "trait_type": "shoes",
+      "value": "locked"
+    },
+    {
+      "trait_type": "background",
+      "value": "locked"
+    },
+    {
+      "trait_type": "skin",
+      "value": "locked"
+    },
+    {
+      "trait_type": "companion",
+      "value": "locked"
+    },
+    {
+      "trait_type": "flag",
+      "value": "locked"
+    },
+    {
+      "trait_type": "head",
+      "value": "locked"
+    },
+    {
+      "trait_type": "ears",
+      "value": "locked"
+    },
+    {
+      "trait_type": "eyebrows",
+      "value": "locked"
+    },
+    {
+      "trait_type": "mouth",
+      "value": "smily"
+    },
+    {
+      "trait_type": "eyes",
+      "value": "locked"
+    },
+    {
+      "trait_type": "sky",
+      "value": "locked"
+    },
+    {
+      "trait_type": "faction",
+      "value": "q00tants"
+    }
+  ]
+}

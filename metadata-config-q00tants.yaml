@@ -10,8 +10,8 @@ traits:
     flip-flops: 20
     sneakers: 10
     sleepers: 5
-    red-converse: 2
-    blue-converse: 1
+    red-oStar: 2
+    blue-oStar: 1
   background:
     moon-surface: 60
     calima-day: 10
@@ -102,7 +102,7 @@ traits:
     vampire: 1
     pacifier-blue: .5
     pacifier-pink: .5
-    jocker: 0.25
+    why-so-serious: 0.25
   eyes:
     q00t-normal: 60
     q00t-eyelashes: 10
@@ -120,28 +120,21 @@ traits:
     shooting-star: 5
     rocket: 1
     lightning: 1
-    sauron-eye: .5
-
-
-
-
-
-
+    flamed-eye: .5
 
 
 upgrade-order:
   - mouth
+  - ears
   - skin
   - eyebrows
   - head
-  - ears
   - shoes
   - background
   - companion
   - sky
   - eyes
   - flag
-
 
 
 # This configures which traits are placed on top and which ones at the bottom.
