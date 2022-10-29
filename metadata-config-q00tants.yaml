@@ -129,12 +129,12 @@ upgrade-order:
   - skin
   - eyebrows
   - head
-  - shoes
-  - background
   - companion
+  - background
+  - shoes
   - sky
-  - eyes
   - flag
+  - eyes
 
 
 # This configures which traits are placed on top and which ones at the bottom.

@@ -61,7 +61,7 @@ if __name__ == '__main__':
     # faction = 'q00nicorns'
     faction = 'q00tants'
 
-    allowed_levels = [2]
+    allowed_levels = [5]
 
     metadata_config = utils.load_metadata_configs(faction)
     traits_configs = metadata_config['traits']
@@ -103,7 +103,7 @@ if __name__ == '__main__':
             cols).count().reset_index().set_index('index')
         hashstrings = leveltratisdf.astype(str).sum(axis=1)
 
-        output_path = path.join(utils.metadata_path(faction), 'output', 'img', f"{level}_upgrades")
+        output_path = path.join(utils.metadata_path(faction), 'output', 'img', f"{faction}_img_{level}_upgrades")
         os.makedirs(output_path, exist_ok=True)
 
         ngroups = len(unique_items)

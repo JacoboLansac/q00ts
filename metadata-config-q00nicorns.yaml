@@ -201,11 +201,11 @@ traits:
 upgrade-order:
   - background
   - hooves
+  - body
+  - mouths
   - hair
   - tails
-  - body
   - head
-  - mouths
   - eyes
   - horn
 
